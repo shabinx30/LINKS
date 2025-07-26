@@ -21,19 +21,19 @@ const page = () => {
             <section>
                 <ul className="flex flex-col gap-2">
                     <Link href="https://www.linkedin.com/in/shabeen-sharih/" target="_blank">
-                        <li className="bg-black flex items-center justify-center gap-4 text-md md:text-xl py-2 px-4 rounded-3xl">
+                        <li className="bg-black flex items-center justify-center gap-4 text-md md:text-xl py-2 px-[4em] rounded-3xl">
                             <FaLinkedin className="text-blue-400" />
                             <h2>LinkedIn</h2>
                         </li>
                     </Link>
                     <Link href="https://github.com/shabinx30" target="_blank">
-                        <li className="bg-black flex items-center justify-center gap-4 text-md md:text-xl py-2 px-4 rounded-3xl">
+                        <li className="bg-black flex items-center justify-center gap-4 text-md md:text-xl py-2 px-[4em] rounded-3xl">
                             <FaGithub />
                             <h2>Github</h2>
                         </li>
                     </Link>
                     <Link href="https://www.instagram.com/shabinsharih/" target="_blank">
-                        <li className="bg-black flex items-center justify-center gap-2 text-md md:text-xl py-2 px-4 rounded-3xl">
+                        <li className="bg-black flex items-center justify-center gap-2 text-md md:text-xl py-2 px-[4em] rounded-3xl">
                             <FaInstagram
                                 style={{ fill: "url(#iconGradient)" }}
                             />
