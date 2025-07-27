@@ -21,21 +21,31 @@
   }
 }
 
+@font-face {
+  font-family: 'Tan Kulture';
+  src: url('./assets/TAN\ KULTURE-DISPLAY.otf');
+  font-display: swap;
+}
+
 body {
   /* background: var(--background); */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  --s: 70px; /* control the size*/
-  
-  --_g: 
-     var(--background) 0%  5% ,var(--c2) 6%  15%,var(--background) 16% 25%,var(--c2) 26% 35%,var(--background) 36% 45%,
-     var(--c2) 46% 55%,var(--background) 56% 65%,var(--c2) 66% 75%,var(--background) 76% 85%,var(--c2) 86% 95%,
-     #0000 96%;
+  --s: 70px;
+  /* control the size*/
+
+  --_g:
+    var(--background) 0% 5%, var(--c2) 6% 15%, var(--background) 16% 25%, var(--c2) 26% 35%, var(--background) 36% 45%,
+    var(--c2) 46% 55%, var(--background) 56% 65%, var(--c2) 66% 75%, var(--background) 76% 85%, var(--c2) 86% 95%,
+    #0000 96%;
   background:
-    radial-gradient(50% 50% at 100% 0,var(--_g)),
-    radial-gradient(50% 50% at 0 100%,var(--_g)),
-    radial-gradient(50% 50%,var(--_g)),
-    radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
-    var(--background);
+    radial-gradient(50% 50% at 100% 0, var(--_g)),
+    radial-gradient(50% 50% at 0 100%, var(--_g)),
+    radial-gradient(50% 50%, var(--_g)),
+    radial-gradient(50% 50%, var(--_g)) calc(var(--s)/2) calc(var(--s)/2) var(--background);
   background-size: var(--s) var(--s);
+}
+
+.tan-kulture {
+  font-family: 'Tan Kulture';
 }
